@@ -30,8 +30,8 @@ for (let i =0; i< example6.length; i ++) {
   let paragraph = example6[i];
   paragraph.textContent += " 😉";
 }
-// создать элемент заполнить его и привязать его в конце определенного элемента
+// создать элемент заполнить его и привязать его в конце определенного элемента apend athe end prepend at the beginning
 
-let example7 = document.createElement("p");
+let example7 = document.createElement("p"); 
 example7.textContent = "Lorem ipsum";
 document.body.append(example7);
