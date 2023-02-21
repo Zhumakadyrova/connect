@@ -37,3 +37,6 @@ example7.textContent = "Lorem ipsum";
 document.body.append(example7);
 
 example1.append(example7);
+
+let example8 = document.createElement("ul");
+document.body.append(example8);
