@@ -35,3 +35,5 @@ for (let i =0; i< example6.length; i ++) {
 let example7 = document.createElement("p"); 
 example7.textContent = "Lorem ipsum";
 document.body.append(example7);
+
+example1.append(example7);
