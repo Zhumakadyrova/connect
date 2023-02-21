@@ -39,9 +39,22 @@ document.body.append(example7);
 example1.append(example7);
 
 let example8 = document.createElement("ul");
+example8.className =" example-8";
 document.body.append(example8);
 for( let i =1; i <=10; i ++) {
   let listItem = document.createElement("li");
   listItem.textContent = "example " + i;
+  listItem.style.color = "red";
   example8.append(listItem);
 }
+
+let fruits = ["apple", "banana", "orange", "pear"];
+let example9 = document.createElement("ul");
+document.body.append(example9);
+for (let i = 0; i < fruits.length; i++) {
+  let listEl = document.createElement("li")
+  listEl.textContent = fruits[i];
+  example9.append(listEl);
+}
+
+example9.remove(); // можем добавить в любое время обратно
