@@ -63,7 +63,7 @@ example9.remove(); // можем добавить в любое время об�
 
 example2.style.backgroundColor = "tomato";
 example2.style.color = "white";
-example3.style.backgroundImage = "url(/panada.GPE)";
+example3.style.backgroundImage = "url(/comode.JPG)";
 
 example4.style.transform = "rotate(-25deg)";
 example4.style.fontSize = "12px";
@@ -89,4 +89,13 @@ helloBtn.addEventListener("click", function() {
 let byeBtn = document.querySelector("#bye");
 byeBtn.addEventListener("click", function (){
   alert("Bye!");
-})
+})  
+let talkBtn = document.querySelector("#talk");
+talkBtn.addEventListener("click", function(){
+  alert("My name is Alica");
+} )
+
+//look up for clicks events
+, function() {
+  alert("Hello, my name is Nagima");
+}
