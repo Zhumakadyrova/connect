@@ -45,6 +45,7 @@ for( let i =1; i <=10; i ++) {
   let listItem = document.createElement("li");
   listItem.textContent = "example " + i;
   listItem.style.color = "red";
+
   example8.append(listItem);
 }
 
@@ -54,7 +55,38 @@ document.body.append(example9);
 for (let i = 0; i < fruits.length; i++) {
   let listEl = document.createElement("li")
   listEl.textContent = fruits[i];
+
   example9.append(listEl);
 }
 
-example9.remove(); // можем добавить в любое время обратно
+example9.remove(); // можем добавить в любое время обратно6
+
+example2.style.backgroundColor = "tomato";
+example2.style.color = "white";
+example3.style.backgroundImage = "url(/panada.GPE)";
+
+example4.style.transform = "rotate(-25deg)";
+example4.style.fontSize = "12px";
+example4.style.width = "24px";
+example4.style.height = "20px";
+
+
+let example10 = document.createElement("ul"); //step1
+document.body.append(example10); //step2
+for (let i =1; i <=10; i ++) {
+  let listEl = document.createElement("li");
+  listEl.textContent = "Lorem" + i;
+  example10.append(listEl);
+}
+
+//events 
+ 
+let helloBtn = document.querySelector("#hello");
+helloBtn.addEventListener("click", function() {
+  alert("Hello!");
+})
+
+let byeBtn = document.querySelector("#bye");
+byeBtn.addEventListener("click", function (){
+  alert("Bye!");
+})
