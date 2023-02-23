@@ -104,4 +104,14 @@ addParagraph.addEventListener("click", function(){
   article.append(newParagraph);
 })
 
+// let listBtn = document.querySelector ("#list");
+// listBtn.addEventListener("click", function() {
+//   let example10 = document.querySelector("example10");
+//   example10.append(listEl)
+// })
 
+let example11Btn = document.querySelector("#example-1");
+let example11Paragraph = document.querySelector ("example-1-target");
+example11Btn.addEventListener("click", function() {
+  example11Paragraph.class = "hidden";
+} )
