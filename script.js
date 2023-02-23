@@ -95,7 +95,13 @@ talkBtn.addEventListener("click", function(){
   alert("My name is Alica");
 } )
 
-//look up for clicks events
-, function() {
-  alert("Hello, my name is Nagima");
-}
+let addParagraph = document.querySelector ("#add-paragraph");
+addParagraph.addEventListener("click", function(){
+  let article =document.querySelector("article");
+  let newParagraph = document.createElement("p");
+  newParagraph.textContent = "Facilis consectetur eius accusamus provident, magni inventore illum fugit incidunt et aliquam impedit sit qui alias nam veniam debitis cumque!";
+  newParagraph.style.backgroundColor =" yellow";
+  article.append(newParagraph);
+})
+
+
