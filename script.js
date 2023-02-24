@@ -111,7 +111,17 @@ addParagraph.addEventListener("click", function(){
 // })
 
 let example11Btn = document.querySelector("#example-1");
-let example11Paragraph = document.querySelector ("example-1-target");
+let example12Btn = document.querySelector("#example-2");
+let example11Paragraph = document.querySelector ("#example-1-target");
 example11Btn.addEventListener("click", function() {
-  example11Paragraph.class = "hidden";
-} )
+  example11Paragraph.className = "hidden";
+})
+example12Btn.addEventListener("click", function(){
+  example11Paragraph.className = "";
+})
+
+let toggleBtn = document.querySelector("#toggle");
+let togglePargaraph = document.querySelector("#toggle-target");
+toggleBtn.addEventListener("click", function (){
+  togglePargaraph.classList.toggle("hidden");
+})

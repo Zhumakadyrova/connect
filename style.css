@@ -1,3 +1,21 @@
 .example-8 {
   border: 2px, solid, black;
 }
+.hidden {
+  opacity: 0;
+}
+p {
+  opacity: 300ms;
+}
+.row.one{
+  display: flex;
+}
+
+.card-image img {
+  height: 400px;
+  width: 90%;
+}
+.card-text p {
+  width: 90%;
+  text-align: center;
+}
